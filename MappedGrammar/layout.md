@@ -1,5 +1,11 @@
 ~~~
-[ gender ][ noun ][ adjective ][ verb ][ punctuation ]
+[ gender ][ noun ][ adjective ] :- [ verb ][ punctuation ]
+~~~
+
+~~~example
+le_pomme(fresh).
+le_pomme(vert) :- le_pomme(fresh).
+le_pomme(mange) :- le_pomme(vert).
 ~~~
 
 ~~~
