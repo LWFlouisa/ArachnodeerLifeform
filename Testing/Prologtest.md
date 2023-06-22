@@ -1,4 +1,4 @@
-~~~
+~~~prolog
 % Facts
 language(french).
 language(japanese).
