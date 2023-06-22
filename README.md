@@ -1,6 +1,15 @@
 # GrammarLog Classifier
 Using IProlog to classify a color palette.
 
+## Prerequisite Knowledge
+~~~
+prolog color theory
+prolog freshness associations
+prolog shape theory
+prolog francaislog
+prolog nihongolog
+~~~
+
 ## Use Case
 The idea of using a text parser for a Ruby-based logic DSL can indeed be applied to develop a poison detector system to prevent people from getting sick. By defining a DSL that includes rules and queries related to poison detection, you can create a system that analyzes input data and provides warnings or alerts based on the detected poison.
 
