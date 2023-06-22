@@ -9,7 +9,12 @@ prolog shape theory
 prolog francaislog
 prolog nihongolog
 prolog iprolog
+ruby speech to text
+ruby naive bayes scent classifier
 ~~~
+
+## Research
+[Are Deer Intelligent?](https://worlddeer.org/are-deer-smart/)
 
 ## Use Case
 The idea of using a text parser for a Ruby-based logic DSL can indeed be applied to develop a poison detector system to prevent people from getting sick. By defining a DSL that includes rules and queries related to poison detection, you can create a system that analyzes input data and provides warnings or alerts based on the detected poison.
