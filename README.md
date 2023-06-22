@@ -15,6 +15,8 @@ ruby naive bayes scent classifier
 
 ## Research
 [Are Deer Intelligent?](https://worlddeer.org/are-deer-smart/)
+[Are Spiders Smart?](https://pestpointers.com/spiders-how-smart-are-they-and-are-they-self-aware/)
+[Are Cockroaches Smart?](https://www.smithsonianmag.com/smart-news/if-cockroaches-are-conscious-would-that-stop-you-from-smushing-them-180947876/)
 
 ## Use Case
 The idea of using a text parser for a Ruby-based logic DSL can indeed be applied to develop a poison detector system to prevent people from getting sick. By defining a DSL that includes rules and queries related to poison detection, you can create a system that analyzes input data and provides warnings or alerts based on the detected poison.
