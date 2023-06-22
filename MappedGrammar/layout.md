@@ -1,11 +1,5 @@
 ~~~
-[ gender ]
-[ noun ]
-[ adjective ]
-[ conjucation ]
-[ verb ]
-[ adverb ]
-[ punctuation ]
+[ gender ][ noun ][ adjective ][ verb ][ punctuation ]
 ~~~
 
 ~~~
