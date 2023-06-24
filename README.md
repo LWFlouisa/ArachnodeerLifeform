@@ -65,3 +65,5 @@ open("_imaginedpath/outcomes/input.txt", "a") { |f|
   f.puts        noises_ai[noises_ai]
 }
 ~~~
+
+## Grammar Parser
