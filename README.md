@@ -1,5 +1,5 @@
-# GrammarLog Classifier
-Using IProlog to classify a color palette. This extended IProlog classifies artificial lifeform data in a text classification and symbolic scheme.
+# Arachnodeer
+Using IProlog to classify a color palette. This extended IProlog classifies artificial lifeform data in a text classification and symbolic scheme. This lifeform is intended to be an aggrivate intelligents of smarter spiders and herbivores like deer.
 
 ## Prerequisite Knowledge
 ~~~
