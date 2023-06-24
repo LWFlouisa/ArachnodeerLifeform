@@ -256,33 +256,35 @@ module AhusacosLite
         ast         = transform.apply(tree)
         ast_output = "#{ast}".to_s
 
-        system("espeak -p 95 '#{ast_output}'")
+        puts "Result: #{ast_output}"
+        
+        #system("espeak -p 95 '#{ast_output}'")
 
-        search_query = "#{ast_output}".split(" ")
+        #search_query = "#{ast_output}" #.split(" ")
 
-        gender      = search_query[0]
-        noun        = search_query[1]
-        adjective   = search_query[2]
-        conjucation = search_query[3]
-        verb        = search_query[4]
-        adverb      = search_query[5]
-        punctuation = search_query[6]
+        #gender      = search_query[0]
+        #noun        = search_query[1]
+        #adjective   = search_query[2]
+        #conjucation = search_query[3]
+        #verb        = search_query[4]
+        3adverb      = search_query[5]
+        #punctuation = search_query[6]
 
-        parsed_xml = "<grammar context='BIANCA'>
-  <phrase>
-    <gender>#{gender}</gender>
-    <noun>#{noun}</noun>
-    <adjective>#{adjective}</adjective>
-    <conjucation>#{conjucation}</conjucation>
-    <verb>#{verb}</verb>
-    <adverb>#{adverb}</adverb>
-    <punctuation>#{punctuation}</punctuation>
-  </phrase>
-</grammar>"
+        #parsed_xml = "<grammar context='BIANCA'>
+  #<phrase>
+    #<gender>#{gender}</gender>
+    #<noun>#{noun}</noun>
+    #<adjective>#{adjective}</adjective>
+    #<conjucation>#{conjucation}</conjucation>
+    #<verb>#{verb}</verb>
+    #<adverb>#{adverb}</adverb>
+    #<punctuation>#{punctuation}</punctuation>
+  #</phrase>
+#</grammar>"
 
-        open("_xml/grammar.xml", "w") { |f|
-          f.puts parsed_xml
-        }
+        #open("_xml/grammar.xml", "w") { |f|
+          #f.puts parsed_xml
+        #}
 
         # SmartSearch::SearchQuery.convert_query
         # SmartSearch::SearchQuery.is_present?
