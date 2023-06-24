@@ -40,3 +40,6 @@ ruby naive bayes scent classifier
 ~~~
 
 ## Grammar Parser
+The grammar parser will be based on a specific variety of French: [Fraponic Static](https://lwflouisa.github.io/FraponicStatic/)
+
+In this case I will use Parslet to create a natural language and programming language.
