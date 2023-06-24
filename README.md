@@ -1,5 +1,5 @@
 # GrammarLog Classifier
-Using IProlog to classify a color palette.
+Using IProlog to classify a color palette. This extended IProlog classifies artificial lifeform data in a text classification and symbolic scheme.
 
 ## Prerequisite Knowledge
 ~~~
