@@ -20,13 +20,6 @@ ruby naive bayes scent classifier
 
 ## Implementation
 
-~~~dataset_hypothesis
-[    Scuttle Up ] [ Climb Tree ] [ Squeek ]
-[  Scuttle Down ] [  Eat Grass ] [   Hsss ]
-[  Scuttle Left ] [ Find Peers ] [  Bleet ]
-[ Scuttle Right ] [  Build Web ] [    Meh ]
-~~~
-
 ~~~neuromap
         0
   0     1     2
